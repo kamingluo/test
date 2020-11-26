@@ -19,6 +19,8 @@ def index(request):
         host = hostdata["production"]
 
     url=host +"hospitalUser/currentUserInfo"
+    print("打印请求接口")
+    print(url)
 
     userresult=req(url,cookie=cookie,methods="get",case_name="获取用户信息")
     dataList.append(userresult)

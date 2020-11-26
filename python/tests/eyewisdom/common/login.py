@@ -16,11 +16,11 @@ def ew_login(data):
     }
     s=requests.Session()
     response=s.post(url,headers=headers)
-    # status_code=response.status_code#状态码!test
+    # status_code=response.status_code#状态码!
     # print("打印状态码")
     # print(status_code)
     response_time =response.elapsed.total_seconds()
-    # print("打印响应时间222")
+    # print("打印响应时间")
     # print(response_time)
     # resdata = response.text
     # print("打印返回信息")
