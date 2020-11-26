@@ -10,8 +10,8 @@ import axios from "axios";
 // axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded';
 
 let config = {
-  //baseURL: 'https://python.luojiaming.top',//反向代理用了域名的配置
-  baseURL:'http://127.0.0.1:8000',//本地链接
+  baseURL: 'https://python.luojiaming.top',//反向代理用了域名的配置
+  // baseURL:'http://127.0.0.1:8000',//本地链接
   // baseURL: process.env.baseURL || process.env.apiUrl || ""
   // timeout: 60 * 1000, // Timeout
   // withCredentials: true, // Check cross-site Access-Control
