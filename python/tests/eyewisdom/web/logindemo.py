@@ -76,5 +76,5 @@ if __name__ == '__main__':
     fp.close()
 
     #发送邮件
-    # sentreport="reports/" +  reportsName
-    # data=sent(title=title,text=reportTime,touser=['954087620@qq.com'],reports=sentreport)
+    sentreport="reports/" +  reportsName
+    data=sent(title=title,text=reportTime,touser=['954087620@qq.com'],reports=sentreport)
